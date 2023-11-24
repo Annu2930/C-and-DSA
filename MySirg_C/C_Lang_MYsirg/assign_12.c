@@ -27,7 +27,7 @@ int main(){
     scanf("%d",&n);
     while (i<=10)
     {
-        printf("%d* %d=%d\n",n,i,i*n);
+        printf("%d* %d=%d\n",n,i,n*i);
         i++;
         
     }
