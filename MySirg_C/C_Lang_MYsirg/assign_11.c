@@ -75,15 +75,28 @@ int main(){
 
 //qn7. wap to print first 10 even natural numbers in reverse order
   /*int main(){
-    int i=20;
+    int i=1;
     printf("1st 10 odd natural number in reverse:\n");
-    while (i>=2)
+    while (i<=10)
     {
         // code 
-        printf("%d \n",i);
-        i=i-2;
+        printf("%d \n",22-2*i);
+        i++;
     }
     
+}*/
+ //qn6. wap to print first 10 even natural numbers
+    int main() {
+    // Write C code here
+   int n=1;
+   printf("first even natural no  order:\n");
+   while(n<=10)
+   {
+       printf("%d\n",2*n);
+       n++;
+   }
+    return 0;
+}
 }*/
 
 
