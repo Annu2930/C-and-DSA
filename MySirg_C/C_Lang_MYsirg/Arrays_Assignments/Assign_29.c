@@ -40,6 +40,7 @@ int q5(){
 
   return 0;
 }*/
+//wap to calculate sum of all even and odd numebrs. which are sotred in array size 10. take value from users
 int main(){
     int a[10],i,sumEven=0,sumOdd=0;
     printf("Enter 10 numbers:");
