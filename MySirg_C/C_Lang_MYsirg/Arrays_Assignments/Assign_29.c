@@ -1,23 +1,17 @@
 #include<stdio.h>
 //qn5.wap to calculate a smallest  numbers stored in array size of 10.Take array value from users 
-int q5(){
-   int arr[10];
-  printf("Enter the 10 number: ");
-  for (int i = 0; i <= 9; ++i) {
-    printf("Enter number %d\n: ", i + 1);
-    scanf("%d", &arr[i]);
-  }
-
-  // storing the largest number to arr[0]
-  for (int i = 0; i <= 9; ++i) {
-    if (arr[0] > arr[i]) {
-      arr[0] = arr[i];
-    }
-  }
-
-  printf("smallest element = %d", arr[0]);
-
-  return 0;
+int main() {
+    int a[10],i,min;
+    printf("Enter 10 numbers:");
+    for(i=0;i<=9;i++)
+    scanf("%d",&a[i]);
+    min=a[0];
+    for(i=0;i<=9;i++)
+    if(min>a[i])
+     min=a[i];
+     printf("smallest number of array is %d\n",min);
+     
+    return 0;
 }
  
 //qn4.wap to calculate a largest numbers stored in array size of 10.Take array value from users 
